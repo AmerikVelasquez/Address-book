@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel= "stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Contacts</title>
+</head>
+<body>
+  <header></header>
+  <div class="container">
+    <form id="form-contact">
+      <h1>New Contact</h1>
+      <h2>Fill out contact information to be saved below.</h2>
+
+      <div class="form-group">
+        <label for="name">Contact's Name:</label>
+        <input id="name" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="number">Phone Number:</label>
+        <input id="number" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input id="email" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <input id="address" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn btn-outline-primary">Submit</button>
+    </form>
+    <div id="line-bottom">
+
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Name: <span class="name"></span></h4>
+      <p class="card-text" id="hidden">
+        Phone-number: <span class="number"></span><br>
+        Email: <span class="email"></span><br>
+        Address: <span class="address"></span>
+      </p>
+    </div>
+  </div>
+
+    </div>
+  </div>
+</body>
+
+
+
+</html>
